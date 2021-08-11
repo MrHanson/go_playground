@@ -91,9 +91,11 @@ func dfs(node *TreeNode) {
 func Run() {
 	rt := createTree()
 
+	println("tree demo run:")
 	print("bfs:")
 	bfs(rt)
 	println()
 	print("dfs:")
 	dfs(rt)
+	println("\n=======")
 }

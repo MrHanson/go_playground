@@ -1,11 +1,11 @@
 package main
 
 import (
-	"playground/structure/tree"
+	"playground/pkg/sync"
 )
 
 func main() {
-	// ghttp.HttpRun()
-
-	tree.Run()
+	// sync.MutexFailed()
+	// sync.RwMutexFailed()
+	sync.OnceRun()
 }
