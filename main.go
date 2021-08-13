@@ -1,11 +1,9 @@
 package main
 
 import (
-	"playground/pkg/sync"
+	"playground/structure/implement"
 )
 
 func main() {
-	// sync.MutexFailed()
-	// sync.RwMutexFailed()
-	sync.OnceRun()
+	implement.ImplementRun()
 }
