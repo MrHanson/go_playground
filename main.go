@@ -1,9 +1,9 @@
 package main
 
 import (
-	"playground/structure/implement"
+	"playground/structure/channel"
 )
 
 func main() {
-	implement.ImplementRun()
+	channel.SelectRun()
 }
