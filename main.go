@@ -1,9 +1,9 @@
 package main
 
 import (
-	"playground/structure/channel"
+	"playground/pkg/timer"
 )
 
 func main() {
-	channel.SelectRun()
+	timer.ScheduleRun()
 }
