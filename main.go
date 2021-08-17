@@ -1,9 +1,7 @@
 package main
 
-import (
-	"playground/pkg/timer"
-)
+import "playground/structure/logic"
 
 func main() {
-	timer.ScheduleRun()
+	logic.LetterCombinationsRun()
 }
