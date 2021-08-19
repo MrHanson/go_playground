@@ -1,7 +1,10 @@
 package main
 
-import "playground/structure/logic"
+import (
+	"fmt"
+	"playground/structure/logic"
+)
 
 func main() {
-	logic.LetterCombinationsRun()
+	fmt.Println(logic.ReverseStr("abc"))
 }
